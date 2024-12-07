@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مكتبة الكتب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>مكتبة الكتب</h1>
+    <div id="form-container">
+      <input type="text" id="title" placeholder="عنوان الكتاب" />
+      <input type="text" id="author" placeholder="اسم المؤلف" />
+      <textarea id="description" placeholder="وصف الكتاب"></textarea>
+      <input type="number" id="rating" placeholder="التقييم (من 1 إلى 5)" min="1" max="5" />
+      <button id="add-book-btn">إضافة كتاب</button>
+    </div>
+    <h2>الكتب المتوفرة</h2>
+    <input type="text" id="search" placeholder="ابحث عن كتاب..."/>
+    <div id="books-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
